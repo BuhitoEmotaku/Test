@@ -2,28 +2,25 @@
     "section1": {
         "files": [
             {
-                "url": [
-                    "assets/media/rooms/_holiday25/shopoffice/hatjingle.mp3"
-                ],
-                "type": "audio",
-                "key": "hatjingle"
-            },
-            {
                 "type": "multiatlas",
                 "url": "assets/media/rooms/_holiday25/shopoffice/holiday-shopoffice.json",
                 "path": "assets/media/rooms/_holiday25/shopoffice",
                 "key": "holiday-shopoffice"
             },
             {
-                "url": "assets/media/rooms/_holiday25/shopoffice/holiday-shopoffice-anims.json",
                 "type": "animation",
+                "url": "assets/media/rooms/_holiday25/shopoffice/holiday-shopoffice-anims.json",
                 "key": "holiday-shopoffice-anims"
             },
             {
-                "type": "multiatlas",
-                "url": "assets/media/rooms/_holiday25/shopoffice/holiday25-shopoffice.json",
-                "path": "assets/media/rooms/_holiday25/shopoffice",
-                "key": "holiday25-shopoffice"
+                "type": "json",
+                "url": "assets/media/rooms/_holiday25/shopoffice/holiday-shopoffice-physics.json",
+                "key": "holiday-shopoffice-physics"
+            },
+            {
+                 "type": "audio",
+                 "url": ["assets/media/rooms/_holiday25/shopoffice/hatjingle.mp3"],
+                 "key": "hatjingle"
             }
         ]
     },
